@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'http://localhost:8080/api/maples',
+    baseURL: 'https://back-b4um.onrender.com/api/maples',
 })
 
 export const getMapleList = async () => {
